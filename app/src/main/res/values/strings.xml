@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab 04 Layouts</string>
+    <string name="top_left_textview_text">this</string>
+    <string name="top_right_textview_text">is</string>
+    <string name="bottom_right_textview_text">one</string>
+    <string name="bottom_left_textview_text">layout</string>
+    <string name="center_textview_text">center</string>
+    <string name="left_textview_text">left</string>
+</resources>
