@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/cardview_dark_background">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25"/>
+
+    <TextView
+        android:id="@+id/top_textview"
+        android:layout_width="@dimen/small_textview_width"
+        android:text="@string/textview_text"
+        android:textSize="@dimen/small_text_size"
+        android:layout_height="@dimen/medium_small_textview_width"
+        app:layout_constraintLeft_toLeftOf="@id/vertical_guideline"
+        app:layout_constraintBottom_toTopOf="@id/top_button"
+        android:background="@color/light_pink"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/top_button"
+        android:layout_width="@dimen/textview_width"
+        android:layout_height="@dimen/medium_small_textview_width"
+        android:backgroundTint="@color/light_orange"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/middle_button"
+        app:layout_constraintLeft_toLeftOf="@id/vertical_guideline"/>
+
+    <Button
+        android:id="@+id/middle_button"
+        android:layout_width="@dimen/small_textview_width"
+        android:layout_height="@dimen/small_textview_width"
+        android:backgroundTint="@color/light_yellow"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/vertical_guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/bottom_button"
+        android:layout_width="@dimen/small_textview_width"
+        android:layout_height="@dimen/small_textview_width"
+        android:backgroundTint="@color/light_mint"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/vertical_guideline"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

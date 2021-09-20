@@ -6,4 +6,7 @@
     <string name="bottom_left_textview_text">layout</string>
     <string name="center_textview_text">center</string>
     <string name="left_textview_text">left</string>
+    <string name="right_textview_text">right</string>
+    <string name="textview_text">textview</string>
+    <string name="button_text">button</string>
 </resources>
