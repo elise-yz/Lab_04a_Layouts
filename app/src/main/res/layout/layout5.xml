@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/top_button"
+        android:layout_width="@dimen/onefifty_width"
+        android:layout_height="@dimen/onetwentyfive_width"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/light_violet"
+        android:text="@string/button_text"
+        android:textColor="@color/text_color"
+        android:textAllCaps="false"
+        android:textSize="@dimen/text_size"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_button" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/small_text_size"
+        android:text="@string/scrollview_text"/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

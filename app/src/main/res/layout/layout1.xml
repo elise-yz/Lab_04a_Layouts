@@ -7,8 +7,8 @@
 
     <TextView
         android:id="@+id/top_left_textview"
-        android:layout_width="@dimen/textview_width"
-        android:layout_height="@dimen/textview_width"
+        android:layout_width="@dimen/onefifty_width"
+        android:layout_height="@dimen/onefifty_width"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         android:gravity="center
@@ -17,8 +17,8 @@
         android:background="@color/light_blue"/>
     <TextView
         android:id="@+id/top_right_textview"
-        android:layout_width="@dimen/textview_width"
-        android:layout_height="@dimen/textview_width"
+        android:layout_width="@dimen/onefifty_width"
+        android:layout_height="@dimen/onefifty_width"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:gravity="center
@@ -27,8 +27,8 @@
         android:background="@color/light_purple_blue"/>
     <TextView
         android:id="@+id/bottom_right_textview"
-        android:layout_width="@dimen/textview_width"
-        android:layout_height="@dimen/textview_width"
+        android:layout_width="@dimen/onefifty_width"
+        android:layout_height="@dimen/onefifty_width"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:gravity="center
@@ -37,8 +37,8 @@
         android:background="@color/light_mint"/>
     <TextView
         android:id="@+id/bottom_left_textview"
-        android:layout_width="@dimen/textview_width"
-        android:layout_height="@dimen/textview_width"
+        android:layout_width="@dimen/onefifty_width"
+        android:layout_height="@dimen/onefifty_width"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         android:gravity="center

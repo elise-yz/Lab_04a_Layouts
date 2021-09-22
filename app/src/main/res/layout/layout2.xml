@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/center_textview"
-        android:layout_width="@dimen/textview_width"
-        android:layout_height="@dimen/textview_width"
+        android:layout_width="@dimen/onefifty_width"
+        android:layout_height="@dimen/onefifty_width"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -34,8 +34,8 @@
 
     <TextView
         android:id="@+id/left_textview"
-        android:layout_width="@dimen/small_textview_width"
-        android:layout_height="@dimen/small_textview_width"
+        android:layout_width="@dimen/onehundred_width"
+        android:layout_height="@dimen/onehundred_width"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="@id/horizontal_guideline"
         app:layout_constraintLeft_toLeftOf="@id/vertical_guideline"
@@ -45,8 +45,8 @@
 
     <TextView
         android:id="@+id/right_textview"
-        android:layout_width="@dimen/small_textview_width"
-        android:layout_height="@dimen/small_textview_width"
+        android:layout_width="@dimen/onehundred_width"
+        android:layout_height="@dimen/onehundred_width"
         android:gravity="center"
         app:layout_constraintLeft_toRightOf="@id/left_textview"
         app:layout_constraintTop_toBottomOf="@id/left_textview"

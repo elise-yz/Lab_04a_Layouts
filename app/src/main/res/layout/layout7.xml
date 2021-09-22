@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25"/>
+
+    <TextView
+        android:id="@+id/top_textview"
+        android:layout_width="@dimen/twohundred_width"
+        android:layout_height="@dimen/onefifty_width"
+        android:background="@color/light_orange"
+        app:layout_constraintTop_toTopOf="@id/horizontal_guideline"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/textview_text"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/text_color"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/top_textview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+    <include layout="@layout/nestedlayout" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
